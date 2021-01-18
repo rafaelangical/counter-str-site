@@ -67,7 +67,11 @@ function App() {
       </TextStrNumber>
       <Footer>
         Created with ❤ by{' '}
-        <a href="https://github.com/rafaelangical" target="_blank">
+        <a
+          href="https://github.com/rafaelangical"
+          target="_blank"
+          rel="noreferrer"
+        >
           Rafael Souza
         </a>
         follow me
