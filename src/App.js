@@ -62,8 +62,8 @@ function App() {
         onChange={(e) => setStr(e.target.value)}
       />
       <TextStrNumber>
-        Na frase dentro do campo acima temos: <strong>{str.length}</strong>{' '}
-        caracteres
+        Na frase dentro do campo acima temos:{' '}
+        <strong>{str.replace(/\s/g, '').length}</strong> caracteres
       </TextStrNumber>
       <Footer>
         Created with ❤ by{' '}
